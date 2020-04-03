@@ -1,5 +1,6 @@
+
 import { Component, OnInit } from '@angular/core';
-import { Quote } from '@angular/compiler';
+import { Quote } from '../quote'
 
 @Component({
   selector: 'app-quote',
@@ -7,6 +8,7 @@ import { Quote } from '@angular/compiler';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
+
   quotes = [
     new Quote(1, 'Unknown', 'If i was a line of code i would be an abstract to hide my implementation from everyone', 'admin', new Date(1990, 5, 10)),
     new Quote(2, 'Mohandas Gandhi', 'Strength does not come from physical capacity. It comes from an indomitable will.', 'admin', new Date(1950, 3, 23)),
