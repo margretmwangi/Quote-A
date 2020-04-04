@@ -7,6 +7,9 @@ import { Quote } from '@angular/compiler';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
+  ngOnInit(): void {
+    throw new Error("Method not implemented.");
+  }
 
   quotes = [
     new Quote(1, 'Unknown', 'If i was a line of code i would be an abstract to hide my implementation from everyone', 'admin', new Date(1990, 5, 10)),
@@ -35,7 +38,6 @@ showDescription= false;//boolean setting to hide and display
   toggleQuote() {
     this.showDescription = !this.showDescription;//show or hide content
   }
-
   constructor() { }
 
   ngOnInit(): void {
