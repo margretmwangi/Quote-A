@@ -12,7 +12,7 @@ export class QuoteComponent implements OnInit {
 quotes: Quote[]=[
   new Quote(1,"Learn from the mistakes of others. You can't live long enough to make them all yourself","Eleanor Roosevelt","david"),
   new Quote(2,"The most important thing to remember is this: to be ready at any moment to give up what you are for what you might become","","peter"),
-  new Quote(3,"When one door closes another opens or you can open the closed door that’s how doors work","stephen","hawkins"),
+  new Quote(3,"Having a soft heart in a cruel world is not weakness it's courage!","Robert","Nymoh")
   new Quote(4,"Your Life can easily flow and be filled with joy. Embrace the possibilities","W.E.B. Du Bois","samuel"),
   new Quote(5,"At the age of 18, I made up my mind to never have another bad day in my life. I dove into a endless sea of gratitude from which I've never emerged","Patch Adams MD","moses"),
   new Quote(6,"If i was a line of code i would be an abstract to hide my implementation from everyone","Unknown","margaret"),
