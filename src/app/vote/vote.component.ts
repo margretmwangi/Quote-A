@@ -7,7 +7,7 @@ import { EventEmitter } from 'events';
   styleUrls: ['./vote.component.css']
 })
 export class VoteComponent implements OnInit {
-  @Output() isComplete = new EventEmitter<boolean>();//listens to button click to display results
+  @Output() isComplete = new EventEmitter();//listens to button click to display results
   //starting point for votes in two variables with 0 as default
       uvotes = 0;
     dvotes = 0;
