@@ -1,6 +1,9 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+## Description
+
+This applications enables one to post qoutes and votes whether to be inspirations or not
 
 ## Development server
 
