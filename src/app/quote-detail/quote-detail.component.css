@@ -1,9 +1,4 @@
- 
-.btn {
-    padding: 4px;
-    margin: 4px;
-    border: none;
-    color: white;
-    float: left;
-    width:40px;
-  }
+button{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
